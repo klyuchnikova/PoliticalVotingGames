@@ -1,0 +1,31 @@
+election_year,election_stage,party_side,advertiser_class,source,stage_spend_usd,unique_advertisers,unique_codes,spend_share
+2020,Convention,Democratic,Anti-Republican,creative,2993950.0,3,1,0.017772462966738997
+2020,Convention,Democratic,Anti-Republican,weekly,1927400.0,3,1,0.0114412883054469
+2020,Convention,Democratic,Anti-Trump,creative,48700.0,2,1,0.00028908931227314725
+2020,Convention,Democratic,Anti-Trump,weekly,41200.0,3,1,0.0002445683709579808
+2020,Convention,Democratic,Democratic,creative,43508850.0,59,4,0.2582739943387171
+2020,Convention,Democratic,Democratic,weekly,34252900.0,60,4,0.2033295134365685
+2020,Convention,Republican,Republican,creative,44947750.0,33,5,0.2668154853331695
+2020,Convention,Republican,Republican,weekly,40739300.0,35,5,0.24183359793612788
+2020,Election Day,Democratic,Democratic,creative,1264400.0,17,4,0.44675287965514804
+2020,Election Day,Republican,Republican,creative,1565800.0,8,4,0.5532471203448519
+2020,General Campaign,Democratic,Anti-Republican,creative,1234850.0,3,1,0.0021028573725087904
+2020,General Campaign,Democratic,Anti-Republican,weekly,2724700.0,3,1,0.004639960710106249
+2020,General Campaign,Democratic,Anti-Trump,creative,4747150.0,4,1,0.008084042090865372
+2020,General Campaign,Democratic,Anti-Trump,weekly,4668700.0,4,1,0.007950447596899859
+2020,General Campaign,Democratic,Democratic,creative,144939600.0,77,4,0.24682131953555095
+2020,General Campaign,Democratic,Democratic,weekly,164421300.0,78,4,0.2799972003907192
+2020,General Campaign,Republican,Republican,creative,123080000.0,43,5,0.20959605248279706
+2020,General Campaign,Republican,Republican,weekly,141408500.0,44,5,0.24080811982055253
+2020,Primary,Democratic,Anti-Republican,creative,954750.0,2,1,0.0049307321859708465
+2020,Primary,Democratic,Anti-Republican,weekly,1128400.0,3,1,0.005827534117464785
+2020,Primary,Democratic,Anti-Trump,creative,90600.0,3,1,0.00046789665990988084
+2020,Primary,Democratic,Anti-Trump,weekly,60800.0,3,1,0.00031399687552451165
+2020,Primary,Democratic,Democratic,creative,71083650.0,54,5,0.3671059868565453
+2020,Primary,Democratic,Democratic,weekly,79318400.0,57,5,0.40963371334874055
+2020,Primary,Republican,Republican,creative,23135300.0,30,4,0.11948045911714202
+2020,Primary,Republican,Republican,weekly,17860600.0,30,4,0.09223968083870218
+2020,,Democratic,Anti-Republican,geo,7528300.0,3,1,
+2020,,Democratic,Anti-Trump,geo,8257100.0,4,1,
+2020,,Democratic,Democratic,geo,525889100.0,90,5,
+2020,,Republican,Republican,geo,377568500.0,44,5,

@@ -1,0 +1,137 @@
+# Political Ads Dataset Documentation
+
+## Overview
+This dataset contains processed political advertising data from Google's Transparency Report for the 2020 US election cycle. Data has been filtered to the period January 1, 2020 through Election Day (November 3, 2020), classified by advertiser affiliation, and aggregated by campaign stage.
+
+---
+
+## Dataset Files
+
+### 1. `political_ads_full_data.csv`
+**Raw merged data from all sources (weekly, creative, and geo spend data).**
+
+| Column | Description |
+|--------|-------------|
+| `advertiser_name` | Name of the advertising entity |
+| `advertiser_class` | Original classification (Democratic, Republican, Anti-Republican, Anti-Trump) |
+| `advertiser_code` | Short code identifier (e.g., DEM_PRES_BIDEN, REP_PRES_TRUMP) |
+| `party_side` | Normalized political side: `democratic` or `republican` |
+| `spend_usd` | Amount spent in US dollars |
+| `week_start` | Date of the ad or week start |
+| `source` | Data source: `weekly` (weekly spend), `creative` (creative stats), `geo` (geo spend) |
+| `election_year` | Election year (2020) |
+| `election_stage` | Campaign stage: `dem_primary`, `conventions`, `general`, `post_election` |
+| `geo_state` | Geographic targeting (state level, when available) |
+
+**Use case:** Raw data for custom filtering and analysis.
+
+---
+
+### 2. `political_ads_weekly_summary.csv`
+**Weekly aggregated spending by advertiser class and campaign stage.**
+
+| Column | Description |
+|--------|-------------|
+| `election_year` | Election year (2020) |
+| `election_stage` | Campaign stage |
+| `week_start` | Start date of the week |
+| `party_side` | `democratic` or `republican` |
+| `advertiser_class` | Original classification |
+| `advertiser_code` | Advertiser short code |
+| `source` | Data source |
+| `total_spend_usd` | Total spend for that week |
+| `num_advertisers` | Number of unique advertisers |
+| `num_ads` | Number of ad records |
+| `spend_category` | `Very Small` (<$500), `Small` (<$5,000), `Mid` (<$50,000), `Large` (≥$50,000) |
+
+**Use case:** Time-series analysis of spending patterns by week.
+
+---
+
+### 3. `political_ads_stage_summary.csv`
+**Spending aggregated by election stage.**
+
+| Column | Description |
+|--------|-------------|
+| `election_year` | Election year (2020) |
+| `election_stage` | Campaign stage |
+| `party_side` | `democratic` or `republican` |
+| `advertiser_class` | Original classification |
+| `source` | Data source |
+| `stage_spend_usd` | Total spend in this stage |
+| `unique_advertisers` | Number of unique advertisers |
+| `unique_codes` | Number of unique advertiser codes |
+| `spend_share` | Percentage of stage spend by party |
+
+**Use case:** Compare spending volume and advertiser participation across campaign phases.
+
+---
+
+### 4. `political_ads_cumulative_stage.csv`
+**Cumulative spending before each election stage.**
+
+| Column | Description |
+|--------|-------------|
+| `party_side` | `democratic` or `republican` |
+| `advertiser_class` | Original classification |
+| `platform` | Advertising platform |
+| `source` | Data source |
+| `total_spend_usd` | Cumulative spend before the stage begins |
+| `election_stage` | Stage this cumulative spend leads up to |
+| `aggregation_type` | `cumulative_before_stage` |
+| `spend_category` | Spend category |
+
+**Use case:** Understanding pre-stage spending momentum and early investment patterns.
+
+---
+
+### 5. `competition_summary.csv`
+**High-level competition summary by party.**
+
+| Column | Description |
+|--------|-------------|
+| `ad_spend_usd` | Total ad spend by party |
+| `unique_advertisers` | Number of unique advertisers |
+| `spend_share` | Share of total spend |
+| `advertiser_share` | Share of total advertisers |
+
+**Use case:** Overall competitive landscape at a glance.
+
+---
+
+## Campaign Stage Definitions
+
+| Stage | Date Range | Description |
+|-------|------------|-------------|
+| `dem_primary` | Feb 3, 2020 – Jun 6, 2020 | Democratic primary season |
+| `conventions` | Jun 7, 2020 – Aug 31, 2020 | Party conventions period |
+| `general` | Sep 1, 2020 – Nov 3, 2020 | General election campaign |
+| `post_election` | Nov 4, 2020 – Dec 31, 2020 | Post-election period |
+
+---
+
+## Classification Mappings
+
+### Party Side Mapping (`AD_SIDE_MAP`)
+
+| Original Class | Mapped Side |
+|----------------|-------------|
+| Democratic | `democratic` |
+| Anti-Republican | `democratic` |
+| Anti-Trump | `democratic` |
+| Republican | `republican` |
+
+### Competition Classes Included
+- Democratic
+- Republican
+- Anti-Republican
+- Anti-Trump
+
+---
+
+## Notes
+- Data source: Google Political Ads Transparency Report
+- Time period: January 1, 2020 – November 3, 2020 (unless post-election data included)
+- Geographic focus: United States
+- Spend values are in US dollars (USD)
+- `spend_category` thresholds are configurable based on spend distribution

@@ -1,0 +1,165 @@
+| Rank | Advertiser | 2020 assignment / context | CLASS | Code |
+|---:|---|---|---|---|
+| 1 | BIDEN FOR PRESIDENT | Official Joe Biden presidential campaign | **Democratic** | `DEM_PRES_BIDEN` |
+| 2 | DONALD J. TRUMP FOR PRESIDENT, INC. | Official Donald Trump presidential campaign | **Republican** | `REP_PRES_TRUMP` |
+| 3 | MIKE BLOOMBERG 2020 INC | Michael Bloomberg Democratic presidential primary campaign | **Democratic** | `DEM_PRIMARY` |
+| 4 | TRUMP MAKE AMERICA GREAT AGAIN COMMITTEE | Trump/Pence joint fundraising committee | **Republican** | `REP_PRES_TRUMP` |
+| 5 | BIDEN VICTORY FUND | Biden/DNC joint fundraising committee | **Democratic** | `DEM_PRES_BIDEN` |
+| 6 | DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE | Democratic National Committee; Biden-aligned in general election | **Democratic** | `DEM_PRES_BIDEN` |
+| 7 | DSCC | Democratic Senatorial Campaign Committee | **Democratic** | `DEM_DOWNBALLOT` |
+| 8 | PRIORITIES USA ACTION | Major Democratic super PAC; pro-Biden/anti-Trump in 2020 | **Democratic** | `DEM_ALIGNED_PAC` |
+| 9 | NRSC | National Republican Senatorial Committee | **Republican** | `REP_DOWNBALLOT` |
+| 10 | AMERICA FIRST ACTION, INC. | Pro-Trump Republican super PAC | **Republican** | `REP_ALIGNED_PAC` |
+| 11 | SENATE LEADERSHIP FUND | Republican Senate super PAC | **Republican** | `REP_ALIGNED_PAC` |
+| 12 | YES ON 22 - SAVE APP-BASED JOBS & SERVICES | California Prop 22 ballot-measure campaign; not Biden/Trump | **Republican** | `REP_ALIGNED_PAC` |
+| 13 | Republican National Committee | Republican National Committee; Trump-aligned in general election | **Republican** | `REP_PRES_TRUMP` |
+| 14 | TEAM GRAHAM, INC. | Lindsey Graham Republican Senate campaign | **Republican** | `REP_DOWNBALLOT` |
+| 15 | BERNIE 2020 | Bernie Sanders Democratic presidential primary campaign | **Democratic** | `DEM_PRIMARY` |
+| 16 | SMP | Senate Majority PAC; Democratic Senate super PAC | **Democratic** | `DEM_ALIGNED_PAC` |
+| 17 | JAIME HARRISON FOR US SENATE | Jaime Harrison Democratic Senate campaign, South Carolina | **Democratic** | `DEM_DOWNBALLOT` |
+| 18 | Mark Kelly for Senate | Mark Kelly Democratic Senate campaign, Arizona | **Democratic** | `DEM_DOWNBALLOT` |
+| 19 | PRESERVE AMERICA PAC | Pro-Trump super PAC supporting Trump reelection | **Republican** | `REP_ALIGNED_PAC` |
+| 20 | AMY MCGRATH FOR SENATE, INC. | Amy McGrath Democratic Senate campaign, Kentucky | **Democratic** | `DEM_DOWNBALLOT` |
+| 21 | JON OSSOFF FOR SENATE | Jon Ossoff Democratic Senate campaign, Georgia | **Democratic** | `DEM_DOWNBALLOT` |
+| 22 | AMERICANS FOR PROSPERITY ACTION INC | Koch-network conservative/libertarian-leaning PAC; generally GOP-aligned | **Republican** | `REP_ALIGNED_PAC` |
+| 23 | CONGRESSIONAL LEADERSHIP FUND | Republican House super PAC | **Republican** | `REP_ALIGNED_PAC` |
+| 24 | STOP REPUBLICANS | Anti-Republican Democratic/progressive-style advertiser | **Anti-Republican** | `DEM_ALIGNED_PAC` |
+| 25 | THERESA GREENFIELD FOR IOWA, INC. | Theresa Greenfield Democratic Senate campaign, Iowa | **Democratic** | `DEM_DOWNBALLOT` |
+| 26 | THE LINCOLN PROJECT | Anti-Trump group founded by Republicans/ex-Republicans; effectively pro-Biden in 2020 | **Anti-Trump** | `DEM_ALIGNED_PAC` |
+| 27 | Priorities USA Action & SMP | Joint Democratic super PAC activity: pro-Biden + Democratic Senate | **Democratic** | `DEM_ALIGNED_PAC` |
+| 28 | NO ON 23 - STOP THE DANGEROUS & COSTLY DIALYSIS PR | California Prop 23 ballot-measure opposition; not presidential | **Unsure/Issue** | `BALLOT_ISSUE` |
+| 29 | NRCC | National Republican Congressional Committee | **Republican** | `REP_DOWNBALLOT` |
+| 30 | PETE FOR AMERICA, INC. | Pete Buttigieg Democratic presidential primary campaign | **Democratic** | `DEM_PRIMARY` |
+| 31 | VOTE YES FOR FAIRNESS | Illinois “Fair Tax” ballot-measure campaign; backed by Democratic/progressive side but still primarily an issue campaign | **Democratic** | `DEM_ALIGNED_ISSUE` |
+| 32 | House Majority PAC | Democratic House super PAC | **Democratic** | `DEM_ALIGNED_PAC` |
+| 33 | TOM STEYER 2020 | Tom Steyer Democratic presidential primary campaign | **Democratic** | `DEM_PRIMARY` |
+| 34 | One Nation | Conservative/Republican-aligned nonprofit, often active in Senate races | **Republican** | `REP_ALIGNED_PAC` |
+| 35 | MCSALLY FOR SENATE INC | Martha McSally Republican Senate campaign, Arizona | **Republican** | `REP_DOWNBALLOT` |
+| 36 | MONTANANS FOR BULLOCK | Steve Bullock Democratic Senate campaign, Montana | **Democratic** | `DEM_DOWNBALLOT` |
+| 37 | GEORGIA ACTION FUND | Republican super PAC active in Georgia; best coded GOP-aligned | **Republican** | `REP_ALIGNED_PAC` |
+| 38 | DCCC | Democratic Congressional Campaign Committee | **Democratic** | `DEM_DOWNBALLOT` |
+| 39 | NRA Victory Fund, Inc. | NRA political fund; conservative/Republican-aligned | **Republican** | `REP_ALIGNED_PAC` |
+| 40 | Steve Daines for Montana | Steve Daines Republican Senate campaign, Montana | **Republican** | `REP_DOWNBALLOT` |
+| 41 | CAL FOR NC | Cal Cunningham Democratic Senate campaign, North Carolina | **Democratic** | `DEM_DOWNBALLOT` |
+| 42 | PETERS FOR MICHIGAN | Gary Peters Democratic Senate campaign, Michigan | **Democratic** | `DEM_DOWNBALLOT` |
+| 43 | INDEPENDENCE USA PAC | Michael Bloomberg-associated PAC; generally anti-Republican/Democratic-aligned in 2020 | **Democratic** | `DEM_ALIGNED_PAC` |
+| 44 | HOME BOX OFFICE, INC. | HBO/media company; not a candidate or party committee | **Commercial/Media** | `COMMERCIAL_MEDIA_UNCLEAR` |
+| 45 | Hickenlooper for Colorado | John Hickenlooper Democratic Senate campaign, Colorado | **Democratic** | `DEM_DOWNBALLOT` |
+| 46 | SARA GIDEON FOR MAINE | Sara Gideon Democratic Senate campaign, Maine | **Democratic** | `DEM_DOWNBALLOT` |
+| 47 | WARNOCK FOR GEORGIA | Raphael Warnock Democratic Senate campaign, Georgia | **Democratic** | `DEM_DOWNBALLOT` |
+| 48 | TEXANS FOR SENATOR JOHN CORNYN INC. | John Cornyn Republican Senate campaign, Texas | **Republican** | `REP_DOWNBALLOT` |
+| 49 | MCCONNELL SENATE COMMITTEE | Mitch McConnell Republican Senate campaign, Kentucky | **Republican** | `REP_DOWNBALLOT` |
+| 50 | SCHOOLS AND COMMUNITIES FIRST | California Prop 15 campaign; progressive/Democratic-aligned tax ballot measure | **Democratic** | `DEM_ALIGNED_ISSUE` |
+| 51 | AMERICAN BRIDGE 21ST CENTURY | Democratic opposition-research / anti-Republican PAC | **Anti-Republican** | `DEM_ALIGNED_PAC` |
+| 52 | Progressive Turnout Project | Democratic/progressive voter-turnout organization | **Democratic** | `DEM_ALIGNED_PAC` |
+| 53 | BOLLIER FOR KANSAS | Barbara Bollier Democratic Senate campaign, Kansas | **Democratic** | `DEM_DOWNBALLOT` |
+| 54 | ALLIANCE FOR A BETTER MINNESOTA ACTION FUND | Minnesota progressive/Democratic-aligned advocacy group | **Democratic** | `DEM_ALIGNED_PAC` |
+| 55 | Money Metals Exchange LLC | Precious-metals business; not clearly a candidate/party advertiser | **Commercial/Media** | `COMMERCIAL_MEDIA_UNCLEAR` |
+| 56 | Joni for Iowa | Joni Ernst Republican Senate campaign, Iowa | **Republican** | `REP_DOWNBALLOT` |
+| 57 | PRIORITIES USA | Democratic/pro-Biden super PAC family | **Democratic** | `DEM_ALIGNED_PAC` |
+| 58 | PRIORITIES USA & MAJORITY FORWARD | Democratic-aligned joint spending: Priorities USA plus Majority Forward/Senate Democratic network | **Democratic** | `DEM_ALIGNED_PAC` |
+| 59 | EPOCH USA INC. | Epoch/Epoch Times-related media advertiser; conservative/pro-Trump media ecosystem, but not an official campaign | **Commercial/Media** | `COMMERCIAL_MEDIA_UNCLEAR` |
+| 60 | LEAGUE OF CONSERVATION VOTERS VICTORY FUND & PRIOR... | Environmental Democratic-aligned super PAC activity with Priorities USA | **Democratic** | `DEM_ALIGNED_PAC` |
+| 61 | CITIZENS FOR FREE ENTERPRISE | Free-market/business conservative PAC; spent in support of Republicans and against Democrats | **Republican** | `REP_ALIGNED_PAC` |
+| 62 | JEXAN LLC | Commercial/unclear digital advertiser; not clearly a campaign or party committee from name alone | **Commercial/Media** | `COMMERCIAL_MEDIA_UNCLEAR` |
+| 63 | NEXTGEN CLIMATE ACTION COMMITTEE | Tom Steyer-founded climate/progressive PAC; Democratic-aligned | **Democratic** | `DEM_ALIGNED_PAC` |
+| 64 | DEFENDING DEMOCRACY TOGETHER | Anti-Trump Republican/conservative group; associated with Republican Voters Against Trump | **Anti-Trump** | `DEM_ALIGNED_PAC` |
+| 65 | Collins for Senator | Susan Collins Republican Senate campaign, Maine | **Republican** | `REP_DOWNBALLOT` |
+| 66 | THOM TILLIS COMMITTEE | Thom Tillis Republican Senate campaign, North Carolina | **Republican** | `REP_DOWNBALLOT` |
+| 67 | CONSERVATIVE BUZZ LLC | Conservative media/advertising entity; not an official campaign, but GOP-aligned content context | **Republican** | `COMMERCIAL_MEDIA_UNCLEAR` |
+| 68 | COOPER FOR NORTH CAROLINA | Roy Cooper Democratic gubernatorial campaign, North Carolina | **Democratic** | `DEM_DOWNBALLOT` |
+| 69 | WOMEN VOTE! | EMILY’s List super PAC; supports Democratic/pro-choice women candidates | **Democratic** | `DEM_ALIGNED_PAC` |
+| 70 | RED SENATE | Republican Senate-aligned advertiser/PAC-style name | **Republican** | `REP_ALIGNED_PAC` |
+| 71 | DEMOCRATIC PARTY OF WISCONSIN | Wisconsin Democratic Party; Biden/Democratic-aligned in 2020 | **Democratic** | `DEM_PRES_BIDEN` |
+| 72 | JOE EDWARD COLLINS III | Joe Collins Republican congressional candidate in California | **Republican** | `REP_DOWNBALLOT` |
+| 73 | MARKETFUEL SUBSCRIPTION SERVICES | Commercial/lead-generation or subscription advertiser; not clearly candidate/party | **Commercial/Media** | `COMMERCIAL_MEDIA_UNCLEAR` |
+| 74 | WARREN FOR PRESIDENT, INC. | Elizabeth Warren Democratic presidential primary campaign | **Democratic** | `DEM_PRIMARY` |
+| 75 | CATHOLICVOTE.ORG | Conservative Catholic advocacy group; Republican/pro-Trump-aligned in 2020 context | **Republican** | `REP_ALIGNED_PAC` |
+| 76 | PROGRESSNOW | Progressive advocacy network; Democratic-aligned | **Democratic** | `DEM_ALIGNED_PAC` |
+| 77 | NEWSMAX MEDIA INC | Conservative media company; pro-Trump/right-wing media context, not official campaign | **Commercial/Media** | `COMMERCIAL_MEDIA_UNCLEAR` |
+| 78 | Iowa Democratic Party | Iowa Democratic Party; Biden/Democratic-aligned in 2020 | **Democratic** | `DEM_PRES_BIDEN` |
+| 79 | COALITION TO STOP THE PROPOSED TAX HIKE AMENDMENT | Illinois anti-tax ballot-measure campaign; business/conservative side of issue | **Republican** | `REP_ALIGNED_ISSUE` |
+| 80 | Majority Forward | Democratic Senate-aligned nonprofit linked to Senate Majority PAC network | **Democratic** | `DEM_ALIGNED_PAC` |
+| 81 | FRIENDS OF MARK WARNER | Mark Warner Democratic Senate campaign, Virginia | **Democratic** | `DEM_DOWNBALLOT` |
+| 82 | KEEP KENTUCKY GREAT | Pro-Mitch McConnell / Republican Kentucky Senate-aligned committee | **Republican** | `REP_DOWNBALLOT` |
+| 83 | MJ FOR TEXAS | MJ Hegar Democratic Senate campaign, Texas | **Democratic** | `DEM_DOWNBALLOT` |
+| 84 | MIKE ESPY FOR SENATE CAMPAIGN COMMITTEE | Mike Espy Democratic Senate campaign, Mississippi | **Democratic** | `DEM_DOWNBALLOT` |
+| 85 | BEACHSIDE MEDIA INC | Commercial/media advertiser; not clearly candidate/party from name alone | **Commercial/Media** | `COMMERCIAL_MEDIA_UNCLEAR` |
+| 86 | Prager University Foundation | Conservative media/advocacy organization; Republican-aligned content context | **Republican** | `COMMERCIAL_MEDIA_UNCLEAR` |
+| 87 | NO ON PROP 15 - STOP HIGHER PROPERTY TAXES AND SAV... | California Prop 15 opposition campaign; anti-tax/business side | **Republican** | `REP_ALIGNED_ISSUE` |
+| 88 | ALLIANCE FOR A BETTER MINNESOTA FEDERAL PAC | Minnesota progressive/Democratic-aligned PAC | **Democratic** | `DEM_ALIGNED_PAC` |
+| 89 | YES ON 14: CALIFORNIANS FOR STEM CELL RESEARCH, TR... | California Prop 14 ballot-measure support campaign; not presidential/party | **Unsure/Issue** | `BALLOT_ISSUE` |
+| 90 | A HEALTHY FUTURE, LLC | Dark-money health-care advertiser that ran anti-Trump ads in 2020 | **Anti-Trump** | `DEM_ALIGNED_PAC` |
+| 91 | DOUG JONES FOR SENATE COMMITTEE | Doug Jones Democratic Senate campaign, Alabama | **Democratic** | `DEM_DOWNBALLOT` |
+| 92 | SHAHEEN FOR SENATE | Jeanne Shaheen Democratic Senate campaign, New Hampshire | **Democratic** | `DEM_DOWNBALLOT` |
+| 93 | PRIORITIES USA ACTION AND SMP | Joint Democratic super PAC activity: Priorities USA + Senate Majority PAC | **Democratic** | `DEM_ALIGNED_PAC` |
+| 94 | NO ON PROP 20 - CALIFORNIANS AGAINST THE PRISON SP... | California Prop 20 opposition campaign; progressive/criminal-justice-reform side, but still a ballot issue | **Democratic** | `DEM_ALIGNED_PAC` |
+| 95 | SEIU COPE | Service Employees International Union political arm; labor/Democratic-aligned | **Democratic** | `DEM_ALIGNED_PAC` |
+| 96 | Friends of Spencer Cox | Spencer Cox Republican gubernatorial campaign, Utah | **Republican** | `REP_DOWNBALLOT` |
+| 97 | PRIORITIES USA ACTION & COLOROFCHANGE PAC | Democratic/progressive joint activity: Priorities USA + Color Of Change PAC | **Democratic** | `DEM_ALIGNED_PAC` |
+| 98 | JOHN JAMES FOR SENATE, INC. | John James Republican Senate campaign, Michigan | **Republican** | `REP_DOWNBALLOT` |
+| 99 | MIKE BLOOMBERG 2020, INC. | Michael Bloomberg Democratic presidential primary campaign | **Democratic** | `DEM_PRIMARY` |
+| 100 | JUST THE TRUTH POLITICAL ACTION COMMITTEE | Super PAC; political alignment unclear from name alone without ad-level context | **Unsure/Issue** | `UNKNOWN_NEEDS_CONTEXT` |
+| 101 | BEYOND CARBON VICTORY FUND | Bloomberg-backed climate PAC supporting clean-energy/Democratic-aligned candidates | **Democratic** | `DEM_ALIGNED_PAC` |
+| 102 | ALL VOTERS VOTE, INC. | Election-reform/top-two primary ballot-measure group; not clearly partisan | **Unsure/Issue** | `BALLOT_ISSUE` |
+| 103 | CLUB FOR GROWTH ACTION | Conservative free-market super PAC; Republican-aligned | **Republican** | `REP_ALIGNED_PAC` |
+| 104 | DR. AL GROSS FOR U.S. SENATE | Al Gross independent candidate for Alaska Senate, Democratic-aligned/endorsed by Democrats | **Democratic** | `DEM_DOWNBALLOT` |
+| 105 | PERSIST PAC | Pro-Elizabeth Warren super PAC / Democratic primary context | **Democratic** | `DEM_PRIMARY` |
+| 106 | A STRONGER MISSOURI | Missouri conservative/pro-Republican issue group | **Republican** | `REP_ALIGNED_PAC` |
+| 107 | DEFENDARIZONA | Arizona Democratic-aligned anti-McSally/pro-Mark Kelly advertiser | **Democratic** | `DEM_ALIGNED_PAC` |
+| 108 | Unite The Country | Pro-Biden Democratic super PAC | **Democratic** | `DEM_PRES_BIDEN` |
+| 109 | AMY FOR AMERICA | Amy Klobuchar Democratic presidential primary campaign | **Democratic** | `DEM_PRIMARY` |
+| 110 | YES FOR A HEALTHY FUTURE | Health-care issue campaign; likely progressive/Democratic health-care messaging, but not safely candidate-coded | **Unsure/Issue** | `BALLOT_ISSUE` |
+| 111 | COLOROFCHANGE PAC | Progressive racial-justice PAC; Democratic-aligned | **Democratic** | `DEM_ALIGNED_PAC` |
+| 112 | NATIONAL DEMOCRATIC TRAINING COMMITTEE PAC | Democratic candidate/training PAC | **Democratic** | `DEM_ALIGNED_PAC` |
+| 113 | PIEDMONT RISING, INC. | North Carolina progressive/Democratic-aligned advocacy group | **Democratic** | `DEM_ALIGNED_PAC` |
+| 114 | FF PAC | Future Forward PAC; Democratic-aligned/pro-Biden super PAC | **Democratic** | `DEM_ALIGNED_PAC` |
+| 115 | SAHAK NALBANDYAN | Individual advertiser; not enough reliable context from name alone | **Unsure/Issue** | `UNKNOWN_NEEDS_CONTEXT` |
+| 116 | Democratic Governors Association | Democratic governors’ organization | **Democratic** | `DEM_DOWNBALLOT` |
+| 117 | CALIFORNIANS FOR EQUAL RIGHTS, NO ON 16 | California Prop 16 opposition campaign; anti-affirmative-action ballot issue, not a candidate committee | **Unsure/Issue** | `BALLOT_ISSUE` |
+| 118 | 2020 DEMOCRATIC NATIONAL CONVENTION COMMITTEE | Democratic convention committee; Biden nomination context | **Democratic** | `DEM_PRES_BIDEN` |
+| 119 | ALEXANDRIA OCASIO-CORTEZ FOR CONGRESS | Alexandria Ocasio-Cortez Democratic House campaign, New York | **Democratic** | `DEM_DOWNBALLOT` |
+| 120 | AFSCME SPECIAL ACCOUNT | Public-sector labor union political account; Democratic/progressive-aligned | **Democratic** | `DEM_ALIGNED_PAC` |
+| 121 | YES ON 16, OPPORTUNITY FOR ALL COALITION, SPONSORE... | California Prop 16 support campaign; affirmative-action ballot-measure side, generally progressive/Dem-aligned but primarily an issue campaign | **Democratic** | `DEM_ALIGNED_PAC` |
+| 122 | LCV VICTORY FUND | League of Conservation Voters Victory Fund; environmental PAC aligned with Democrats | **Democratic** | `DEM_ALIGNED_PAC` |
+| 123 | CHANGE NOW | Democratic/left-of-center PAC; targeted Republicans and spent against Trump in 2020 | **Democratic** | `DEM_ALIGNED_PAC` |
+| 124 | RESTORATION PAC | Conservative/Republican super PAC | **Republican** | `REP_ALIGNED_PAC` |
+| 125 | MICHIGAN DEMOCRATIC STATE CENTRAL COMMITTEE | Michigan Democratic Party; Biden/Democratic-aligned in 2020 | **Democratic** | `DEM_PRES_BIDEN` |
+| 126 | MAGICSTAR ARROW INC | Commercial or unclear advertiser; not safely candidate/party-coded from name alone | **Commercial/Media** | `COMMERCIAL_MEDIA_UNCLEAR` |
+| 127 | Moveon.org Political Action | Progressive/Democratic-aligned PAC; anti-Trump/pro-Democratic in 2020 | **Democratic** | `DEM_ALIGNED_PAC` |
+| 128 | DITCH FUND | Anti-Mitch McConnell / anti-Republican Senate-focused PAC | **Anti-Republican** | `DEM_ALIGNED_PAC` |
+| 129 | HOMEOWNERS AND TENANTS UNITED | Housing/rent issue campaign; likely progressive, but primarily issue/local ballot context | **Unsure/Issue** | `BALLOT_ISSUE` |
+| 130 | BLACKPAC | Black voter mobilization PAC; Democratic/progressive-aligned | **Democratic** | `DEM_ALIGNED_PAC` |
+| 131 | LEADING COLORADO FORWARD | Colorado Senate race PAC context; likely pro-Hickenlooper/anti-Cory Gardner, Democratic-aligned | **Democratic** | `DEM_ALIGNED_PAC` |
+| 132 | Sprizzy Media LLC | Digital/video promotion company; commercial/media advertiser, not a campaign committee | **Commercial/Media** | `COMMERCIAL_MEDIA_UNCLEAR` |
+| 133 | OPPORTUNITY MATTERS FUND, INC. | Conservative/Republican-aligned PAC associated with Sen. Tim Scott orbit | **Republican** | `REP_ALIGNED_PAC` |
+| 134 | NATIONAL ASSOCIATION FOR THE ADVANCEMENT OF COLORE... | NAACP-related voter/civil-rights organization; officially nonpartisan but generally progressive/Democratic-aligned electoral context | **Democratic** | `DEM_ALIGNED_PAC` |
+| 135 | CHISPA AZ PAC | Arizona Latino/environmental justice PAC; progressive/Democratic-aligned | **Democratic** | `DEM_ALIGNED_PAC` |
+| 136 | JOSH STEIN FOR ATTORNEY GENERAL | Josh Stein Democratic attorney-general campaign, North Carolina | **Democratic** | `DEM_DOWNBALLOT` |
+| 137 | SECURITY IS STRENGTH PAC | National-security themed PAC; ambiguous from name alone, but likely anti-Trump/Democratic-aligned context | **Unsure/Issue** | `UNKNOWN_NEEDS_CONTEXT` |
+| 138 | FRIENDS OF ANDREW YANG | Andrew Yang Democratic presidential primary campaign | **Democratic** | `DEM_PRIMARY` |
+| 139 | THE EMPOWERMENT ALLIANCE, INC. | Pro-natural-gas / energy issue advocacy group; generally conservative/Republican-aligned | **Republican** | `REP_ALIGNED_PAC` |
+| 140 | AMERICAN FEDERATION OF TEACHERS, AFL-CIO | Teachers’ union; Democratic/progressive-aligned | **Democratic** | `DEM_ALIGNED_PAC` |
+| 141 | KEAN FOR CONGRESS INC | Tom Kean Jr. Republican House campaign, New Jersey | **Republican** | `REP_DOWNBALLOT` |
+| 142 | OUR AMERICAN CENTURY | Conservative/Republican-aligned PAC | **Republican** | `REP_ALIGNED_PAC` |
+| 143 | KENNEDY FOR MASSACHUSETTS | Joe Kennedy III Democratic Senate primary campaign, Massachusetts | **Democratic** | `DEM_DOWNBALLOT` |
+| 144 | EMERGING AMERICAN MAJORITIES | Left-of-center/Democratic-aligned organization focused on representation and progressive policy | **Democratic** | `DEM_ALIGNED_PAC` |
+| 145 | BLACK PAC | Same general entity/context as BlackPAC; Black voter mobilization, Democratic/progressive-aligned | **Democratic** | `DEM_ALIGNED_PAC` |
+| 146 | TURNER BROADCASTING SYSTEM, INC. | Media company; not a candidate/party committee | **Commercial/Media** | `COMMERCIAL_MEDIA_UNCLEAR` |
+| 147 | DFL HOUSE CAUCUS | Minnesota Democratic-Farmer-Labor House caucus; Democratic state legislative | **Democratic** | `DEM_DOWNBALLOT` |
+| 148 | NO ON PROP 22, SPONSORED BY LABOR ORGANIZATIONS | California Prop 22 opposition campaign; labor/progressive side, but primarily ballot issue | **Unsure/Issue** | `BALLOT_ISSUE` |
+| 149 | THERESA GREENFIELD FOR IOWA | Theresa Greenfield Democratic Senate campaign, Iowa | **Democratic** | `DEM_DOWNBALLOT` |
+| 150 | COLLECTIVE FUTURE | Progressive/Democratic-aligned PAC focused on Black political power and representation | **Democratic** | `DEM_ALIGNED_PAC` |
+| 151 | California Secretary of State | Official California state election-information advertiser; government/nonpartisan | **Nonpartisan/Government** | `NONPARTISAN_GOV` |
+| 152 | THE VOTER PARTICIPATION CENTER | Voter-registration/turnout nonprofit; officially nonpartisan, but focused on demographics that lean Democratic | **Democratic** | `DEM_ALIGNED_PAC` |
+| 153 | FEDERATION FOR AMERICAN IMMIGRATION REFORM | Immigration-restriction advocacy group; conservative/Republican-aligned issue context | **Republican** | `REP_ALIGNED_PAC` |
+| 154 | Nuestro PAC | Latino Democratic/progressive PAC | **Democratic** | `DEM_ALIGNED_PAC` |
+| 155 | SPANBERGER FOR CONGRESS | Abigail Spanberger Democratic House campaign, Virginia | **Democratic** | `DEM_DOWNBALLOT` |
+| 156 | 2020 OUR OREGON VOTER GUIDE PAC | Oregon voter-guide/ballot issue-style PAC; not safely Biden/Trump-coded from name alone | **Unsure/Issue** | `BALLOT_ISSUE` |
+| 157 | LATINO VICTORY FUND | Latino Democratic/progressive PAC | **Democratic** | `DEM_ALIGNED_PAC` |
+| 158 | GEORGIANS FOR KELLY LOEFFLER | Kelly Loeffler Republican Senate campaign/allied committee, Georgia | **Republican** | `REP_DOWNBALLOT` |
+| 159 | MAX ROSE FOR CONGRESS | Max Rose Democratic House campaign, New York | **Democratic** | `DEM_DOWNBALLOT` |
+| 160 | HARLEY ROUDA FOR CONGRESS | Harley Rouda Democratic House campaign, California | **Democratic** | `DEM_DOWNBALLOT` |
+| 161 | GEORGIA UNITED VICTORY | Georgia Republican/conservative super PAC active in 2020 Senate context | **Republican** | `REP_ALIGNED_PAC` |
+| 162 | FELLOW AMERICANS | Anti-Trump/left-of-center 2020 advocacy group created to persuade Republicans not to support Trump | **Anti-Trump** | `DEM_ALIGNED_PAC` |
+| 163 | CORY GARDNER FOR SENATE | Cory Gardner Republican Senate campaign, Colorado | **Republican** | `REP_DOWNBALLOT` |
