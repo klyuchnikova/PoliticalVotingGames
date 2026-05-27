@@ -1,5 +1,8 @@
 # Political Ads Dataset Documentation
 
+- All data is in final folder
+- There's an example_load.ipynb
+
 ## Overview
 This dataset contains processed political advertising data from Google's Transparency Report for the 2020 US election cycle. Data has been filtered to the period January 1, 2020 through Election Day (November 3, 2020), classified by advertiser affiliation, and aggregated by campaign stage.
 
