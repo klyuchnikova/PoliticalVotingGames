@@ -1,33 +1,33 @@
-party_side,advertiser_class,platform,source,total_spend_usd,election_stage,aggregation_type,spend_category
-Democratic,Anti-Republican,Google,creative,954750.0,Convention,cumulative_before_stage,Large
-Democratic,Anti-Republican,Google,weekly,1128400.0,Convention,cumulative_before_stage,Large
-Democratic,Anti-Trump,Google,creative,90600.0,Convention,cumulative_before_stage,Large
-Democratic,Anti-Trump,Google,weekly,60800.0,Convention,cumulative_before_stage,Large
-Democratic,Democratic,Google,creative,71083650.0,Convention,cumulative_before_stage,Large
-Democratic,Democratic,Google,weekly,79318400.0,Convention,cumulative_before_stage,Large
-Republican,Republican,Google,creative,23135300.0,Convention,cumulative_before_stage,Large
-Republican,Republican,Google,weekly,17860600.0,Convention,cumulative_before_stage,Large
-Democratic,Anti-Republican,Google,creative,3948700.0,General Campaign,cumulative_before_stage,Large
-Democratic,Anti-Republican,Google,weekly,3055800.0,General Campaign,cumulative_before_stage,Large
-Democratic,Anti-Trump,Google,creative,139300.0,General Campaign,cumulative_before_stage,Large
-Democratic,Anti-Trump,Google,weekly,102000.0,General Campaign,cumulative_before_stage,Large
-Democratic,Democratic,Google,creative,114592500.0,General Campaign,cumulative_before_stage,Large
-Democratic,Democratic,Google,weekly,113571300.0,General Campaign,cumulative_before_stage,Large
-Republican,Republican,Google,creative,68083050.0,General Campaign,cumulative_before_stage,Large
-Republican,Republican,Google,weekly,58599900.0,General Campaign,cumulative_before_stage,Large
-Democratic,Anti-Republican,Google,creative,5183550.0,Election Day,cumulative_before_stage,Large
-Democratic,Anti-Republican,Google,weekly,5780500.0,Election Day,cumulative_before_stage,Large
-Democratic,Anti-Trump,Google,creative,4886450.0,Election Day,cumulative_before_stage,Large
-Democratic,Anti-Trump,Google,weekly,4770700.0,Election Day,cumulative_before_stage,Large
-Democratic,Democratic,Google,creative,259532100.0,Election Day,cumulative_before_stage,Large
-Democratic,Democratic,Google,weekly,277992600.0,Election Day,cumulative_before_stage,Large
-Republican,Republican,Google,creative,191163050.0,Election Day,cumulative_before_stage,Large
-Republican,Republican,Google,weekly,200008400.0,Election Day,cumulative_before_stage,Large
-Democratic,Anti-Republican,Google,creative,5183550.0,Post-Election,cumulative_before_stage,Large
-Democratic,Anti-Republican,Google,weekly,5780500.0,Post-Election,cumulative_before_stage,Large
-Democratic,Anti-Trump,Google,creative,4886450.0,Post-Election,cumulative_before_stage,Large
-Democratic,Anti-Trump,Google,weekly,4770700.0,Post-Election,cumulative_before_stage,Large
-Democratic,Democratic,Google,creative,260796500.0,Post-Election,cumulative_before_stage,Large
-Democratic,Democratic,Google,weekly,277992600.0,Post-Election,cumulative_before_stage,Large
-Republican,Republican,Google,creative,192728850.0,Post-Election,cumulative_before_stage,Large
-Republican,Republican,Google,weekly,200008400.0,Post-Election,cumulative_before_stage,Large
+Side_Label,Advertiser_Class,source,country,state,total_spend_usd,election_stage,aggregation_type,spend_category
+Democratic,Anti-Republican,creative,US,,954750.0,Convention,cumulative_before_stage,Large
+Democratic,Anti-Republican,weekly,US,,1128400.0,Convention,cumulative_before_stage,Large
+Democratic,Anti-Trump,creative,US,,90600.0,Convention,cumulative_before_stage,Large
+Democratic,Anti-Trump,weekly,US,,60800.0,Convention,cumulative_before_stage,Large
+Democratic,Democratic,creative,US,,71083650.0,Convention,cumulative_before_stage,Large
+Democratic,Democratic,weekly,US,,79318400.0,Convention,cumulative_before_stage,Large
+Republican,Republican,creative,US,,23135300.0,Convention,cumulative_before_stage,Large
+Republican,Republican,weekly,US,,17860600.0,Convention,cumulative_before_stage,Large
+Democratic,Anti-Republican,creative,US,,3948700.0,General Campaign,cumulative_before_stage,Large
+Democratic,Anti-Republican,weekly,US,,3055800.0,General Campaign,cumulative_before_stage,Large
+Democratic,Anti-Trump,creative,US,,139300.0,General Campaign,cumulative_before_stage,Large
+Democratic,Anti-Trump,weekly,US,,102000.0,General Campaign,cumulative_before_stage,Large
+Democratic,Democratic,creative,US,,114592500.0,General Campaign,cumulative_before_stage,Large
+Democratic,Democratic,weekly,US,,113571300.0,General Campaign,cumulative_before_stage,Large
+Republican,Republican,creative,US,,68083050.0,General Campaign,cumulative_before_stage,Large
+Republican,Republican,weekly,US,,58599900.0,General Campaign,cumulative_before_stage,Large
+Democratic,Anti-Republican,creative,US,,5183550.0,Election Day,cumulative_before_stage,Large
+Democratic,Anti-Republican,weekly,US,,5780500.0,Election Day,cumulative_before_stage,Large
+Democratic,Anti-Trump,creative,US,,4886450.0,Election Day,cumulative_before_stage,Large
+Democratic,Anti-Trump,weekly,US,,4770700.0,Election Day,cumulative_before_stage,Large
+Democratic,Democratic,creative,US,,259532100.0,Election Day,cumulative_before_stage,Large
+Democratic,Democratic,weekly,US,,277992600.0,Election Day,cumulative_before_stage,Large
+Republican,Republican,creative,US,,191163050.0,Election Day,cumulative_before_stage,Large
+Republican,Republican,weekly,US,,200008400.0,Election Day,cumulative_before_stage,Large
+Democratic,Anti-Republican,creative,US,,5183550.0,Post-Election,cumulative_before_stage,Large
+Democratic,Anti-Republican,weekly,US,,5780500.0,Post-Election,cumulative_before_stage,Large
+Democratic,Anti-Trump,creative,US,,4886450.0,Post-Election,cumulative_before_stage,Large
+Democratic,Anti-Trump,weekly,US,,4770700.0,Post-Election,cumulative_before_stage,Large
+Democratic,Democratic,creative,US,,260796500.0,Post-Election,cumulative_before_stage,Large
+Democratic,Democratic,weekly,US,,277992600.0,Post-Election,cumulative_before_stage,Large
+Republican,Republican,creative,US,,192728850.0,Post-Election,cumulative_before_stage,Large
+Republican,Republican,weekly,US,,200008400.0,Post-Election,cumulative_before_stage,Large

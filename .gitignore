@@ -136,7 +136,6 @@ Thumbs.db
 google-political-ads-transparency-bundle.zip
 google-political-ads-transparency-bundle/
 final/political_ads_full_data.csv
-political_ads_*.csv
 competition_summary.csv
 
 # Logs and databases
