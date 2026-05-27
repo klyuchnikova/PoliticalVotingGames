@@ -1,0 +1,166 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+*.xlsx
+*.parquet
+*.feather
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# IDEs
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.~*
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.DS_Store
+
+# Data files (custom for your political ads project)
+# Large data files that shouldn't be committed
+*.zip
+*.parquet
+*.feather
+*.h5
+*.pkl
+*.pickle
+*.joblib
+
+# Google political ads bundle
+google-political-ads-transparency-bundle.zip
+google-political-ads-transparency-bundle/
+final/political_ads_full_data.csv
+political_ads_*.csv
+competition_summary.csv
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Output directories
+output/
+data/
+tmp/
+temp/
+logs/
+final/
+
+# Jupyter notebook output cells (if you want to strip outputs)
+# Install nbstripout: pip install nbstripout
+# Then run: nbstripout --install
+.ipynb
+
+# Mac resource forks
+._*
+
+# Local configuration
+config.local.py
+*.local.py
